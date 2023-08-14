@@ -1,0 +1,114 @@
+.top {
+    display: inline-flex;
+    padding: 20px;
+    max-width: 260px;
+}
+
+.card {
+    min-height: 250px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    background-color: white;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 10px;
+  }
+
+  .status {
+    display: block;
+    width: 15px;
+    height: 15px;
+    
+    background-color: #0fcc45;
+    opacity: 0.7;
+    border-radius: 50%;
+
+  }
+
+  .icon-container {
+    width: 21px;
+    height: 33px;
+    position: relative;
+    float: right;
+    margin-top: 5px;
+  }
+  
+  img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #57b2cf;
+    bottom: -5px;
+    right: 0;
+    position: absolute;
+  }
+
+  .status-circle2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(196, 194, 194);
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 6px;
+  }
+
+
+  .tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .feature{
+    border: 2px solid #edebeb;
+    padding: 6px;
+    border-radius: 5px;
+    width: 75%;
+    margin-top: 15px;
+  }
+
+  .mainTitle{
+    min-height: 80px;
+  }
+
+  .dot{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid lightgray;
+    border-style: groove;
+    padding: 6px;
+    margin-top: 15px;
+  }
+
+  .box{
+    width: 60%;
+  }
